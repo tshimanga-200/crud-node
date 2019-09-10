@@ -1,7 +1,7 @@
 // inclusion du module mongoose
 const mongoose = require ('mongoose')
 //utilisation de l'objet mongoose pour s'est connecté à la base de donnée
-mongoose.connect('mongodb://localhost:27017/studentDB',{ useNewUrlParser : true},(error)=>{
+mongoose.connect('mongodb://localhost:27017/monNode',{ useNewUrlParser : true},(error)=>{
     if(error){
         console.log('la connection a echoué')
     }else{
