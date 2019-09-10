@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname,'/public')));
 app.set('view engine','hbs');
 
 //routers
-const studentController = require('./routeControllers/studentController'):
+const studentController = require('./routeControllers/studentController');
 app.use('/student', studentController);
 
 app.listen(port,()=>{
